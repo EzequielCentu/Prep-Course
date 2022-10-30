@@ -234,10 +234,11 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length === 2) {
     return "Dato incorrecto";
-  } else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+  } else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")  {
   return "Es vocal";
   } return "Dato incorrecto"
   }
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
